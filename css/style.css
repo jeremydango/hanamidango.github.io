@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+main {
+	width: 909px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#sample1 {
+	width: 909px;
+	height: 511px;
+	position: relative;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-left: -45px;
+}
+#sample1 li {
+	position:absolute;
+	list-style-type: none;
+}
+.title {
+	text-align: center;
+	font-size: x-large;
+	line-height: 300px;
+	width: 300px;
+	height: 300px;
+	margin-left: 0px;
+	margin-right: 3px;
+	float: left;
+	font-family:"Roboto",sans-serif;
+	font-weight:100;
+}
+.image {
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-top: 30px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+footer {
+	clear: both;
+}
+.button {
+	display: inline-block;
+	width: 120px;
+	height: 24px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 24px;
+	outline: none;
+}
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+.button {
+	background-color: #333;
+	color: #fff;
+}
+.button:hover {
+	background-color: #76b1d9;
+}h1 {
+	color: #808080;
+	font-size: xx-large;
+	font-family:"Roboto",sans-serif;
+	font-weight:100;
+}
+#menu {
+	list-style-type: none;
+	font-family: "Roboto",sans-serif;
+	font-weight: 300;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+#menu li {
+	float: none;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+header {
+	width: 909px;
+	height: 100px;
+	margin-left: 0px;
+	position: relative;
+	background-image: url(../images/header-back.gif);
+}
+address {
+	text-align: center;
+	font-size: small;
+	font-style: normal;
+	font-family:"Roboto",sans-serif;
+	font-weight:300;
+}
+.image1 {
+	margin-left: 0px;
+	margin-right: 3px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image2 {
+	margin-left: -5px;
+	margin-right: 3px;
+	margin-top: 140px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image3 {
+	margin-left: -5px;
+	margin-right: 3px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image4 {
+	margin-left: 300px;
+	margin-right: 3px;
+	margin-top: -140px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image5 {
+	margin-left: -5px;
+	margin-right: 3px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image6 {
+	margin-left: -5px;
+	margin-right: 3px;
+	margin-top: 140px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image7 {
+	margin-left: -5px;
+	margin-right: 3px;
+	margin-top: 280px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image8 {
+	margin-left: 300px;
+	margin-right: 3px;
+	margin-top: -140px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image0 {
+	margin-left: 300px;
+	margin-right: 3px;
+	margin-top: -140px;
+	width: 300px;
+	height: 300px;
+	float: left;
+}
+.image12 {
+	margin-top: -16px;
+	margin-left: -20px;
+}
